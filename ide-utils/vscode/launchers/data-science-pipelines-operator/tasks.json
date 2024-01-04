@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Unit Tests",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "unittest"
+            ]
+        },
+        {
+            "label": "Run Functional Tests",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "functest"
+            ]
+        },
+        {
+            "label": "Run All Dev Tests",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "test"
+            ]
+        }
+    ]
+}
